@@ -1,0 +1,2 @@
+node-sass styles/main.scss > dist/main-dev.css
+concurrently "npm:dev-watch-css" "npm:dev-server"
