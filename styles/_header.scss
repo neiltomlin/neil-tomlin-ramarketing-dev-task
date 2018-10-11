@@ -1,39 +1,39 @@
 .header {
   height: 80px;
   background: $pace-white;
-}
 
-.brand-name {
-  color: $pace-turquoise;
-  margin-left: 20px;
-}
-
-.pace-logo {
-  text-transform: uppercase;
-  color: $pace-grey;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: flex-end;
-
-  li {
-    list-style: none;
-    margin: auto 10px;
+  .brand-name {
+    color: $pace-turquoise;
+    margin-left: 20px;
   }
 
-  a {
-    text-decoration: none;
-    color: $pace-dark-blue;
-  }
-}
-
-.search-container {
-  &:hover {
-    cursor: pointer;
+  .pace-logo {
+    text-transform: uppercase;
+    color: $pace-grey;
   }
 
-  .search {
-    display: none;
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      list-style: none;
+      margin: auto 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $pace-dark-blue;
+    }
+  }
+
+  .search-container {
+    &:hover {
+      cursor: pointer;
+    }
+
+    .search {
+      display: none;
+    }
   }
 }
