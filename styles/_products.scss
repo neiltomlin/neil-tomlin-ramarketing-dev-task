@@ -23,7 +23,7 @@
     height: 350px;
 
     //medium screens
-    @media screen and (min-width: 640px) and (max-width: 1024px) {
+    @include breakpoint(medium only) {
       width: calc(50% - (5px / 2));
       padding-right: 5px;
       float: left;
@@ -32,7 +32,7 @@
       }
     }
     //large screens
-    @media screen and (min-width: 1024px) {
+    @include breakpoint(large) {
       width: calc(25% - (15px / 4));
       padding-right: 5px;
       float: left;
