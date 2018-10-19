@@ -1,0 +1,1 @@
+uglifyjs scripts/pace.js -o dist/main.js

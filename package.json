@@ -14,8 +14,14 @@
   },
   "homepage": "https://github.com/neiltomlin/neil-tomlin-ramarketing-dev-task#readme",
   "scripts": {
+    "build-css-dev": "./bin/build-css-dev",
+    "build-css-prod": "./bin/build-css-prod",
+    "build-js-dev": "./bin/build-js-dev",
+    "build-js-prod": "./bin/build-js-prod",
+    "build-prod": "./bin/build-prod",
     "dev-server": "./bin/dev-server",
     "dev-watch-css": "./bin/dev-watch-css",
+    "dev-watch-js": "./bin/dev-watch-js",
     "start-dev": "./bin/start-dev"
   },
   "devDependencies": {
@@ -25,6 +31,7 @@
     "http-server": "^0.11.1",
     "jquery": "^3.3.1",
     "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4",
     "uglify-js": "^3.4.9",
     "what-input": "^5.1.2"
   },

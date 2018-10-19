@@ -1,3 +1,4 @@
+// PACE colour palette
 $pace-green: #c5e86c;
 $pace-turquoise: #00505C;
 $pace-blue: #0f467c;
@@ -6,6 +7,8 @@ $pace-grey: #55524e;
 $pace-light-grey: #dddddd;
 $pace-white: #fff;
 
+// Overwrite foundation settings
+$grid-container: 1080;
 
 body {
   background: $pace-light-grey;

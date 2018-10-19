@@ -14,9 +14,13 @@ Before beginning the development task, I decided to:
  Without access to Adobe CS or a design styleguide, it wasn't the simplest task to generate font colours and images but I opted to settle for a colour picker tool and cropping from the existing images. Were this a real life scenario, I would make a list of the required assets and return to UX/design handover. Given that this is a development task for a job application, I've settled for this makeshift solution.
  
  Similarly, with only a flat image, no real client requirements and no detailed understanding of Ramarketing's CMS, I can't be sure how to develop a thorough solution that covers dynamic content: Can there be more than 4 products? Can there be more than 5 nav links? etc. My decision is to develop as though this won't change in order to spend more time to demonstrate a wider range of skills.
+ 
+ The dev task itself is very large - essentially the flat build of an entire site.
   
  ### Development Reflections
  Javascript - The brief for developers asks for jQuery implementation which I have provided. With more time however, I feel that developing a solution in vanilla javascript would provide a better experience for the end user. I would also have liked to have demonstrated my experience with ES6 version of the solution.
+ 
+ 
  
  ## Review of Case Study
   https://aquila-bm.com/

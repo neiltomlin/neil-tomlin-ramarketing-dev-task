@@ -1,0 +1,1 @@
+node-sass styles/main.scss > dist/main-dev.css

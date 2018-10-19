@@ -2,12 +2,13 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="main-dev.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-<div class="body-wrapper grid-x">
+<div class="body-wrapper grid-x grid-container">
   <div class="header cell grid-x">
-    <h1 class="brand-name cell large-4"><span class="pace-logo">Pace</span> Automotives</h1>
-    <ul class="nav-links cell large-auto">
+    <h1 class="brand-name cell large-4 medium-3 small-8"><span class="pace-logo">Pace</span> Automotives</h1>
+    <ul class="nav-links cell large-auto medium-auto small-auto">
       <li><a href="#">Home</a></li>
       <li><a href="#">Our Solutions</a></li>
       <li><a href="#">About Us</a></li>
@@ -20,30 +21,43 @@
     </ul>
   </div>
 
-  <div class="products-component cell open">
-    <div class="product-wrapper">
-      <div class="product">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.</p>
+  <div class="products-component cell js-prod">
+    <div class="panel-wrapper">
+      <div class="product-wrapper js-first">
+        <div class="product">
+          <img src="resources/charging.jpg">
+          <p class="title">Charging Points</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="product-wrapper js-second">
+        <div class="product">
+          <img src="resources/charging.jpg">
+          <p class="title">Charging Points</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="product-wrapper">
+        <div class="product">
+          <img src="resources/charging.jpg">
+          <p class="title">Charging Points</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="product-wrapper">
+        <div class="product">
+          <img src="resources/charging.jpg">
+          <p class="title">Charging Points</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
       </div>
     </div>
-    <div class="product-wrapper">
-      <div class="product">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.</p>
-      </div>
-    </div>
-    <div class="product-wrapper">
-      <div class="product">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.</p>
-      </div>
-    </div>
-    <div class="product-wrapper">
-      <div class="product">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.</p>
-      </div>
-    </div>
-    <div class="products-control"><span class="chevron top"></span></div>
+    <div class="products-control js-pc"><span class="chevron top"></span></div>
   </div>
 </div>
 
 </body>
+<footer>
+  <script src="main-dev.js"></script>
+</footer>
 </html>

@@ -1,0 +1,1 @@
+nodemon --watch scripts/* --exec bin/build-js-dev
